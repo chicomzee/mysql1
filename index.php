@@ -8,5 +8,5 @@
 
  */
 
-$sql query =SELECT *FROM superheros WHERE super
-?>
+$sql_query = "SELECT * FROM superheros  WHERE superpower LIKE '%laser%'";
+?
