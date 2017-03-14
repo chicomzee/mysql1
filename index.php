@@ -7,6 +7,4 @@
  * process the $row
 
  */
-
-$sql_query = "SELECT * FROM superheros  WHERE superpower LIKE '%laser%'";
-?
+?>
