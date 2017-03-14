@@ -10,7 +10,7 @@
 
 include "dbConnect.php";
 $sql_query = "SELECT * FROM marvelmovies"; // WHERE  productionstudio like '%20th Century Fox%'";
-$result = $localdb->query($sql_query);
+$result = $link->query($sql_query);
 while($row = $result->fetch_array()){
     echo "<p>" . $row['marvelmovieID']. "</p>";
 }
