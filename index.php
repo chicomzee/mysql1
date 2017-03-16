@@ -9,9 +9,9 @@
  */
 ?>
 
-<a href="ALLMovies.php"> All Movies</a>
-<a href="MarvelStudioMovies.php"> Marvel Movies</a>
-<a href="MoviesAfter2010.php"> All Movie</a>
+<a href="ALLMovies.php"> All Movies</a> <br>
+<a href="MarvelStudiosMovies.php"> Marvel Movies</a><br>
+<a href="MoviesAfter2010.php"> All Movie</a><br>
    
    
    
