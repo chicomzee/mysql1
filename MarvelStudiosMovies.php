@@ -8,10 +8,10 @@
 
 
 include "dbConnect.php";
-$sql_query = "SELECT * FROM marvelmovies WHERE  productionStudio like '%Mavel%'";
+$sql_query = "SELECT * FROM marvelmovies WHERE  productionStudio like '%Mavel Studios%'";
 $result = $link->query($sql_query);
 while($row = $result->fetch_array()){
     echo "<p>" . $row['title']. "</p>";
 }
-
+$result
 ?>
