@@ -7,13 +7,12 @@
  * process the $row
 
  */
-
-include "dbConnect.php";
-$sql_query = "SELECT * FROM marvelmovies WHERE  productionStudio like '%20th Century Fox%'";
-$result = $link->query($sql_query);
-while($row = $result->fetch_array()){
-    echo "<p>" . $row['title']. "</p>";
-}
-
 ?>
 
+<a href="ALLMovies.php"> All Movies</a>
+<a href="MarvelStudioMovies.php"> Marvel Movies</a>
+<a href="MoviesAfter2010.php"> All Movie</a>
+   
+   
+   
+   
